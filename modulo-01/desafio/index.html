@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Desafio módulo 01</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="user-search">
+        <form>
+          <h1>Pesquisa de usuários</h1>
+          <div class="input-container">
+            <input id="name" type="text" pattern=".+" required />
+            <label for="name">Busca</label>
+          </div>
+          <button class="button">Buscar</button>
+        </form>
+      </section>
+      <section class="show-users panel">
+        <h2>Nenhum usuário filtrado</h2>
+      </section>
+      <section class="show-statistics panel">
+        <h2>Estatísticas</h2>
+      </section>
+    </div>
+    <div class="logo">
+      <img src="./img/logo_igti.png" />
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/fecthUsers.js"></script>
+    <script src="js/getInputData.js"></script>
+    <script src="js/getInputData.js"></script>
+    <script src="js/showFilteredUsers.js"></script>
+    <script src="js/renderUsers.js"></script>
+    <script src="js/renderStatistics.js"></script>
+  </body>
+</html>
