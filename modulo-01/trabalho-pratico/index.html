@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <title>Trabalho Prático Módulo 01</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="logo">
+        <img src="./img/logo_igti.png" alt="logo_igti" />
+      </div>
+      <form>
+        <p class="range-field">
+          <span class="selctor" id="selctor-r">R</span>
+          <input
+            type="range"
+            class="sliders"
+            id="range-red"
+            value="0"
+            min="0"
+            max="255"
+          />
+          <input type="text" class="display" id="display-red" disabled />
+        </p>
+        <p class="range-field">
+          <span class="selctor" id="selctor-g">G</span>
+          <input
+            type="range"
+            class="sliders"
+            id="range-green"
+            value="0"
+            min="0"
+            max="255"
+          />
+          <input
+            type="text"
+            class="display"
+            id="display-green"
+            class="display"
+          />
+        </p>
+        <p class="range-field">
+          <span class="selctor" id="selctor-b">B</span>
+          <input
+            type="range"
+            class="sliders"
+            id="range-blue"
+            value="0"
+            min="0"
+            max="255"
+          />
+          <input type="text" class="display" id="display-blue" disabled />
+        </p>
+      </form>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
